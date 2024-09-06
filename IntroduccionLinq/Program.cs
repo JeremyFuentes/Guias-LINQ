@@ -110,27 +110,27 @@ ListaHabitantes.Add(new Habitante
 });
 #endregion
 #region SentenciasLinQ
-IEnumerable<Habitante> ListaEdad = from ObjetoProvicional
-                                   in ListaHabitantes
-                                   where ObjetoProvicional.Edad > 40
-                                   select ObjetoProvicional;
+//IEnumerable<Habitante> ListaEdad = from ObjetoProvicional
+//                                   in ListaHabitantes
+//                                   where ObjetoProvicional.Edad > 40
+//                                   select ObjetoProvicional;
 
-foreach (Habitante objetoProcicional2 in ListaEdad)
-{
-    Console.WriteLine(objetoProcicional2.datosHabitante());
-}
+//foreach (Habitante objetoProcicional2 in ListaEdad)
+//{
+//    Console.WriteLine(objetoProcicional2.datosHabitante());
+//}
 
-//Join
-IEnumerable<Habitante> listaCasaGothan = from objetoTemporalHabitante in ListaHabitantes
-                                         join objetoTemporalCasa in ListaCasas
-                                         on objetoTemporalHabitante.IdHabitante equals objetoTemporalCasa.Id
-                                         where objetoTemporalCasa.Ciudad == "Gothan City"
-                                         select objetoTemporalHabitante;
-Console.WriteLine("----------------------------------------------------------------------------------------------");
-foreach (Habitante h in listaCasaGothan)
-{
-    Console.WriteLine(h.datosHabitante());
-}
+////Join
+//IEnumerable<Habitante> listaCasaGothan = from objetoTemporalHabitante in ListaHabitantes
+//                                         join objetoTemporalCasa in ListaCasas
+//                                         on objetoTemporalHabitante.IdHabitante equals objetoTemporalCasa.Id
+//                                         where objetoTemporalCasa.Ciudad == "Gothan City"
+//                                         select objetoTemporalHabitante;
+//Console.WriteLine("----------------------------------------------------------------------------------------------");
+//foreach (Habitante h in listaCasaGothan)
+//{
+//    Console.WriteLine(h.datosHabitante());
+//}
 
 #endregion
 #region FirsthAndFirsthOrDefault
@@ -157,4 +157,42 @@ if (CasaConFirsthOrDedault == null ) {
 }
 Console.WriteLine("existe !Si existe!");
 */
+#endregion
+
+#region ElementAt
+var terceraCasa = ListaCasas.ElementAt(2);
+Console.WriteLine($"La tercera casa es {terceraCasa.dameDatosCasa()}");
+
+var casaError = ListaCasas.ElementAtOrDefault(3);
+if (casaError != null) { Console.WriteLine($"La tercera casa es {casaError.dameDatosCasa()}"); }
+
+var segundoHabitante = (from objetoTem in ListaHabitantes select objetoTem).ElementAtOrDefault(2);
+Console.WriteLine($" segundo habitante es : {segundoHabitante.datosHabitante()}");
+#endregion
+
+#region single
+try
+{
+    var habitantes = ListaHabitantes.Single(variableTem => variableTem.Edad > 40 && variableTem.Edad < 70);
+    // Creando esta consulta pero con LinQ
+    var habitante2 = (from obtem in ListaHabitantes where obtem.Edad > 70 select obtem).SingleOrDefault();
+
+    Console.WriteLine($"habitante con menos de 20 años {habitantes.datosHabitante()}");
+    if (habitante2 != null) Console.WriteLine($"habitante con mas de 70 años {habitante2.datosHabitante()}");
+}
+catch (Exception)
+{
+    Console.WriteLine($"Ocurrio el error");
+}
+#endregion
+
+#region typeOf
+var listaEmpleados = new List<Empleado>() {
+    new Medico(){ nombre= "Jorge Casa" },
+    new Enfermero(){ nombre = "Raul Blanco"}
+};
+
+var medico = listaEmpleados.OfType<Medico>();
+Console.WriteLine(medico.Single().nombre);
+
 #endregion
