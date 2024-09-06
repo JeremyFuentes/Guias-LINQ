@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace IntroduccionLinq
 {
+    //Clase madre utilizada para otras clases 
     public class Empleado
     {
-        public string nombre {  get; set; }
+        public string nombre { get; set; }
     }
 }

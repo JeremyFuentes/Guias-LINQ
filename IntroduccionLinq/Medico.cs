@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace IntroduccionLinq
 {
-    internal class Medico : Empleado
+    //Clase hija heredada de empleado
+    public class Medico : Empleado
     {
+        public string nombre { get; set; }
     }
 }

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace IntroduccionLinq
 {
+    // Clase creada para almacenar datos de habitantes 
     public class Habitante
     {
         public int IdHabitante { get; set; }
@@ -15,8 +16,8 @@ namespace IntroduccionLinq
 
         public string datosHabitante()
         {
-
-            return $"Soy {Nombre} con edad de {Edad} años vividos den {IdCasa}";
+            //Retorna el nombre la edad y el id de las personas que cumplan con x condicion 
+            return $"Soy {Nombre} con edad de {Edad} años vividos en {IdCasa}";
         }
     }
 }

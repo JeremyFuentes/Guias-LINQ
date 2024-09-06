@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Progra II\\clase semana 6\\IntroduccionLinq\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{55AB66EF-E365-4DCB-B779-773C43BD775F}|IntroduccionLinq\\IntroduccionLinq.csproj|c:\\users\\jerem\\desktop\\universidad\\ciclo iv\\progra ii\\clase semana 6\\introduccionlinq\\introduccionlinq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55AB66EF-E365-4DCB-B779-773C43BD775F}|IntroduccionLinq\\IntroduccionLinq.csproj|solutionrelative:introduccionlinq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{55AB66EF-E365-4DCB-B779-773C43BD775F}|IntroduccionLinq\\IntroduccionLinq.csproj|c:\\users\\jerem\\desktop\\universidad\\ciclo iv\\progra ii\\clase semana 6\\introduccionlinq\\introduccionlinq\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55AB66EF-E365-4DCB-B779-773C43BD775F}|IntroduccionLinq\\IntroduccionLinq.csproj|solutionrelative:introduccionlinq\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,12 +15,16 @@
       "RelativeMoniker": "D:0:0:{55AB66EF-E365-4DCB-B779-773C43BD775F}|IntroduccionLinq\\IntroduccionLinq.csproj|solutionrelative:introduccionlinq\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{55AB66EF-E365-4DCB-B779-773C43BD775F}|IntroduccionLinq\\IntroduccionLinq.csproj|c:\\users\\jerem\\desktop\\universidad\\ciclo iv\\progra ii\\clase semana 6\\introduccionlinq\\introduccionlinq\\casa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55AB66EF-E365-4DCB-B779-773C43BD775F}|IntroduccionLinq\\IntroduccionLinq.csproj|solutionrelative:introduccionlinq\\casa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{55AB66EF-E365-4DCB-B779-773C43BD775F}|IntroduccionLinq\\IntroduccionLinq.csproj|c:\\users\\jerem\\desktop\\universidad\\ciclo iv\\progra ii\\clase semana 6\\introduccionlinq\\introduccionlinq\\habitante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55AB66EF-E365-4DCB-B779-773C43BD775F}|IntroduccionLinq\\IntroduccionLinq.csproj|solutionrelative:introduccionlinq\\habitante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55AB66EF-E365-4DCB-B779-773C43BD775F}|IntroduccionLinq\\IntroduccionLinq.csproj|c:\\users\\jerem\\desktop\\universidad\\ciclo iv\\progra ii\\clase semana 6\\introduccionlinq\\introduccionlinq\\casa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55AB66EF-E365-4DCB-B779-773C43BD775F}|IntroduccionLinq\\IntroduccionLinq.csproj|solutionrelative:introduccionlinq\\casa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55AB66EF-E365-4DCB-B779-773C43BD775F}|IntroduccionLinq\\IntroduccionLinq.csproj|c:\\users\\jerem\\desktop\\universidad\\ciclo iv\\progra ii\\clase semana 6\\introduccionlinq\\introduccionlinq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55AB66EF-E365-4DCB-B779-773C43BD775F}|IntroduccionLinq\\IntroduccionLinq.csproj|solutionrelative:introduccionlinq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,39 +54,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Medico.cs",
               "DocumentMoniker": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Progra II\\clase semana 6\\IntroduccionLinq\\IntroduccionLinq\\Medico.cs",
               "RelativeDocumentMoniker": "IntroduccionLinq\\Medico.cs",
               "ToolTip": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Progra II\\clase semana 6\\IntroduccionLinq\\IntroduccionLinq\\Medico.cs",
               "RelativeToolTip": "IntroduccionLinq\\Medico.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAkAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-06T04:09:43.791Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Enfermero.cs",
               "DocumentMoniker": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Progra II\\clase semana 6\\IntroduccionLinq\\IntroduccionLinq\\Enfermero.cs",
               "RelativeDocumentMoniker": "IntroduccionLinq\\Enfermero.cs",
               "ToolTip": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Progra II\\clase semana 6\\IntroduccionLinq\\IntroduccionLinq\\Enfermero.cs",
               "RelativeToolTip": "IntroduccionLinq\\Enfermero.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAnAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-06T04:09:23.034Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Empleado.cs",
               "DocumentMoniker": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Progra II\\clase semana 6\\IntroduccionLinq\\IntroduccionLinq\\Empleado.cs",
               "RelativeDocumentMoniker": "IntroduccionLinq\\Empleado.cs",
               "ToolTip": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Progra II\\clase semana 6\\IntroduccionLinq\\IntroduccionLinq\\Empleado.cs",
               "RelativeToolTip": "IntroduccionLinq\\Empleado.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-06T04:05:11.418Z",
               "EditorCaption": ""
@@ -99,33 +99,33 @@
               "RelativeDocumentMoniker": "IntroduccionLinq\\Habitante.cs",
               "ToolTip": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Progra II\\clase semana 6\\IntroduccionLinq\\IntroduccionLinq\\Habitante.cs",
               "RelativeToolTip": "IntroduccionLinq\\Habitante.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-06T03:15:51.804Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Casa.cs",
               "DocumentMoniker": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Progra II\\clase semana 6\\IntroduccionLinq\\IntroduccionLinq\\Casa.cs",
               "RelativeDocumentMoniker": "IntroduccionLinq\\Casa.cs",
               "ToolTip": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Progra II\\clase semana 6\\IntroduccionLinq\\IntroduccionLinq\\Casa.cs",
               "RelativeToolTip": "IntroduccionLinq\\Casa.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-06T03:15:41.664Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Progra II\\clase semana 6\\IntroduccionLinq\\IntroduccionLinq\\Program.cs",
               "RelativeDocumentMoniker": "IntroduccionLinq\\Program.cs",
               "ToolTip": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Progra II\\clase semana 6\\IntroduccionLinq\\IntroduccionLinq\\Program.cs",
               "RelativeToolTip": "IntroduccionLinq\\Program.cs",
-              "ViewState": "AQIAAKwAAAAAAAAAAAAAAMUAAAAKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-06T02:19:54.283Z",
               "EditorCaption": ""
